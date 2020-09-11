@@ -1,0 +1,52 @@
+.nav-link{
+    color: #ffffff;
+    opacity: 1;
+    font-size: 18px;
+    font-family: Raleway-Bold;
+}
+.nav-link:hover{
+    color: #ffffff;
+    opacity: 1;
+}
+.nav .active{
+    color: #ffffff;
+    opacity: 1;
+}
+.main-nav{
+    width: 100%;
+    border: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+.headercontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.finddreamhome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.finddreamhome p{
+    color: #ffffff;
+}
+.findur{
+    font-weight: 300;
+}
+.dreamhome{
+    font-weight: bold;
+    
+}

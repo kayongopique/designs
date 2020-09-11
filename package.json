@@ -1,0 +1,78 @@
+{
+  "name": "aln-designs",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=8",
+    "npm": ">=6",
+    "yarn": ">=1"
+  },
+  "dependencies": {
+    "3d-react-carousal": "^2.0.1",
+    "@emotion/core": "^10.0.15",
+    "@emotion/styled": "^10.0.15",
+    "@reach/dialog": "^0.2.9",
+    "@reach/menu-button": "^0.1.18",
+    "@reach/router": "^1.2.1",
+    "@reach/tabs": "^0.1.6",
+    "@reach/tooltip": "^0.2.2",
+    "@reach/visually-hidden": "^0.1.4",
+    "@testing-library/jest-dom": "^4.0.0",
+    "@testing-library/react": "^9.0.2",
+    "bootstrap": "^4.3.1",
+    "debounce-fn": "^3.0.1",
+    "faker": "^4.1.0",
+    "font-awesome": "^4.7.0",
+    "history": "^4.10.1",
+    "marked": "^0.7.0",
+    "match-sorter": "^4.0.1",
+    "nuka-carousel": "^4.6.0",
+    "prop-types": "^15.7.2",
+    "querystringify": "^2.1.1",
+    "react": "16.9.0",
+    "react-3d-carousels": "^1.0.2",
+    "react-async": "^7.0.6",
+    "react-device-detect": "^1.13.1",
+    "react-dom": "16.9.0",
+    "react-icons": "^3.7.0",
+    "react-logger": "^1.1.0",
+    "react-multi-carousel": "^2.5.5",
+    "react-owl-carousel2": "^0.3.0",
+    "react-redux": "^7.1.1",
+    "react-responsive-carousel": "^3.1.51",
+    "react-router-dom": "^5.1.2",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "react-scripts": "^3.0.1",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "stop-runaway-react-effects": "^1.2.0"
+  },
+  "devDependencies": {
+    "husky": "^3.0.3",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.18.2"
+  },
+  "scripts": {
+    "start": "set PORT=3300 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">1%",
+      "last 4 versions",
+      "Firefox ESR",
+      "not ie < 11"
+    ]
+  }
+}
